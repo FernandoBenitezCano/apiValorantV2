@@ -1,6 +1,6 @@
 @font-face {
   font-family: valorant;
-  src: url(font/Valorant\ Font.ttf);
+  src: url(font/ValorantFont.ttf);
 }
 
 * {
@@ -126,7 +126,8 @@ h1 {
   bottom: 0%;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 60%;
 }
 
 
