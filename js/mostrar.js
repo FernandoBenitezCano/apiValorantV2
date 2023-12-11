@@ -104,7 +104,6 @@ function showAllAction() {
           });
 
           iconDel.addEventListener("click", () => {
-            alert(data.id);
             deleteData(data.id);
 
            });
