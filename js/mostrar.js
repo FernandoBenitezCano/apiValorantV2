@@ -100,7 +100,7 @@ function showAllAction() {
           }
 
           iconUpd.addEventListener("click", () => {
-           window.location.href = '/html/formularioEditar.html?id=' + data.id;
+           window.location.href = './html/formularioEditar.html?id=' + data.id;
           });
 
           iconDel.addEventListener("click", () => {
@@ -128,7 +128,7 @@ function deleteData(id) {
     .then(() => {
       dbManager.deleteData(id)
         .then(() => {
-          window.location.href = '/html/confirmacionBorrar.html';
+          window.location.href = './html/confirmacionBorrar.html';
         })
         .catch((error) => {
           console.error("Error deleteData: " + error);

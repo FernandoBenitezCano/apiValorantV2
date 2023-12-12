@@ -72,7 +72,7 @@ function checkForChangesAndProceed() {
    
   } else {
     // No hay cambios, puedes redirigir o realizar alguna otra acción
-    window.location.href = 'avisoEditar.html';
+    window.location.href = './avisoEditar.html';
   }
 }
 

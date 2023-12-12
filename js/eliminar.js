@@ -88,7 +88,7 @@ function deleteRow(id, row) {
     .then(() => {
       dbManager.deleteData(id)
         .then(() => {
-          window.location.href = 'confirmacionBorrar.html';
+          window.location.href = './confirmacionBorrar.html';
         })
         .catch((error) => {
           console.error("Error deleteData: " + error);

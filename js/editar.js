@@ -51,7 +51,7 @@ function showAllAction() {
 
               // Agrega un evento de clic a cada fila
               row.addEventListener("click", () => {
-                window.location.href = '/html/formularioEditar.html?id=' + data.id;
+                window.location.href = './html/formularioEditar.html?id=' + data.id;
               });
 
               tbody.appendChild(row);

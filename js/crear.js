@@ -28,7 +28,7 @@ function insertAgent() {
         dbManager.addData(data)
           .then(() => {
             dbManager.counter++;
-            window.location.href = 'confirmacionCrear.html';
+            window.location.href = './confirmacionCrear.html';
           })
           .catch((error) => {
             console.error("Error addData: " + error);
