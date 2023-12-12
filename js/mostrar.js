@@ -79,7 +79,7 @@ function showAllAction() {
           divicons.classList.add('upd-del-icon');
           let image = document.createElement('img');
           image.classList.add('card-img-top', 'img-fluid', 'img-agente', 'pt-2');
-          image.src = "../img/default.png";
+          image.src = "./img/default.png";
 
           let cardBody = document.createElement('div');
           cardBody.classList.add('card-body', 'text-center', 'flex-grow-1');
@@ -94,7 +94,7 @@ function showAllAction() {
           for (let index = 0; index < 4; index++) {
             let abilityImg = document.createElement('img');
             abilityImg.classList.add('img-fluid', 'rounded-circle', 'habilidad');
-            abilityImg.src = "../img/habDef.jpg";
+            abilityImg.src = "./img/habDef.jpg";
             abilityImg.style.maxWidth = '40px';
             habilidadesDiv.appendChild(abilityImg);
           }
