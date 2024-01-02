@@ -3,8 +3,6 @@ const dbManager = DatabaseManager.getInstance();
 
 const tableContainer = document.getElementById("table-container");
 let id;
-const idStorage = localStorage.getItem('myId');
-
 
 
 function showAllAction() {
